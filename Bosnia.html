@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Welcome to Bosnia</title>
+	<link rel="stylesheet" type="text/css" href="css/navigation.css">
+        <link rel="stylesheet" type="text/css" href="css/text.css">
+        <link rel="stylesheet" type="text/css" href="css/img.css">
+	<script type="text/javascript" src="http://code.jquery.com/jquery-2.2.3.min.js"></script>
+</head>
+<body>
+	<ul class="navigate">
+                <li class="navigate"><a href="index.html">HOME</a></li>
+                <li class="navigate"><a href="#Mostar">Mostar</a></li>
+                <li class="navigate"><a href="#Medugorje">Medugorje</a></li>
+                <li class="navigate"><a href="#Sarajevo">Sarajevo</a></li>
+        </ul>
+
+        <div class="left-div">
+        <img src="img/bosnia-10.jpg" class="main"></div>
+
+        <div id="Location" class="right-div"><h2>Location</h2>
+	<p>Bosnia and Herzegovina is a country on the Balkans in southeastern Europe, with Serbia and Montenegro on the east and southeast, and Croatia on the north and west. The country is close to the landlocked country, and the coastline is only 21 km long. The central and southern parts of the country are mountainous, the northwestern part is hilly and the northeastern part is flat. Much of the inland area has a continental climate that is hot in summer and snowy in winter. The southern tip of the country is a plain area with a Mediterranean climate. The capital city is Sarajevo.</p>
+ 	<img src="img/map_bosnia.png" class="main"></div>
+
+	<div class="list">	
+	<details>
+		<summary id="Mostar" onclick="getDetails_1()">Mostar</summary>
+		<div id="dt"> Mostar is situated on the Neretva River and is the fifth largest city in the country. Mostar was named mostari, meaning "bridge watchers" who guarded the bridge just above the Neretva River. During the reign of Turkey, the bridge was constructed and became one of the symbols of the mosque. The bridge was destroyed by the Croatian Defense Council during 10:15 Bosnia and Herzegovina Wars on November 9, 1993. </div></details>
+
+	<details>
+		<summary id="Medugorje" onclick="getDetails_2()">Medugorje</summary>
+		<div id="dt2"> The Mejugoriyan parish was built in the Helsinki region,
+It is located 25 km southwest, mostly Catholic. Approximately 4,000 people, believers, live in the city of Mejorghi. Priests belonging to the Assumption of the Assumption of the Franciscan Order of the Herzegovina are in charge of the parish priest. Croatian people who accepted Christianity before the 13th century are living in this area. In 1599, for the first time, the village of Mejoriyar was mentioned in the historical record. The present parish was founded in 1892 and was dedicated to St. James, the patron saint of the pilgrims.
+		</div></details>
+
+	<details>
+		<summary id="Sarajevo" onclick="getDetails_3()">Sarajevo</summary>
+		<div id="dt3"> It is widely known as an industrial of crafts, electric, cigarette, furniture, handicrafts such as folk crafts and rugs. It is located in a place where the culture of Christianity and Islam is in contact with and gives a glimpse of the sceneries mixed with the buildings of Christianity and Islam. Founded in 1949, it has a university, a local museum, a modern railway station and an airport, and a new modern residential area was built.
+		</div></details><br><br>
+	</div>
+
+	<div class="by"><br>PHOTO ALBUM<br><br>
+        </div>
+
+	<button id="album">Show Album</button>
+
+	<div class="photo">
+		<img src="img/bosnia-1.PNG">
+                <img src="img/bosnia-9.jpg">
+		<img src="img/bosnia-4.jpeg">
+                <img src="img/bosnia-5.jpeg">
+		<img src="img/bosnia-11.jpg">
+                <img src="img/bosnia-6.jpeg">
+		<img src="img/bosnia-7.jpg">
+		<img src="img/bosnia-8.jpg">
+	</div>
+	<div class="by">
+        <br><a href="about.html" class="name">made by HYUNHYERIM</a><br><br>
+        </div>
+
+	<script type="text/javascript" src="detail.js"></script>
+</body>
+</html>
+

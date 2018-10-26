@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Welcome to China</title>
+	<link rel="stylesheet" type="text/css" href="css/navigation.css">
+        <link rel="stylesheet" type="text/css" href="css/text.css">
+        <link rel="stylesheet" type="text/css" href="css/img.css">
+	<script type="text/javascript" src="http://code.jquery.com/jquery-2.2.3.min.js"></script>
+</head>
+<body>
+	<ul class="navigate">
+                <li class="navigate"><a href="index.html">HOME</a></li>
+                <li class="navigate"><a href="#Tiananmen">Tiananmen</a></li>
+                <li class="navigate"><a href="#zoo">Beijing Zoo</a></li>
+                <li class="navigate"><a href="#palace">Summer Palace</a></li>
+        </ul>
+
+        <div class="left-div">
+        <img src="img/china-8.jpeg" class="main"></div>
+
+        <div id="Location" class="right-div"><h2>Location</h2>
+	<p> The People's Republic of China is a republic in East Asia. It is also called Chinese or Chinese. The capital city is Beijing, and the largest city is Shanghai. Because of the world's largest population and wide land area, the territory is called China continent.</p>
+	<img src="img/map_china.png" class="main"></div>
+
+	<div class="list">		
+	<details>
+		<summary id="Tiananmen" onclick="getDetails_1()">Tiananmen</summary>
+		<div id="dt"> Tiananmen Square, famous as the world's largest plaza, is located in central Beijing. It is 800 meters long to the north and 500 meters long to the east and west, with a total area of 44,000 square meters. Tiananmen Square, a space that can accommodate more than a million people, is used as a venue for mass demonstrations, rallies, celebrations and processions in China. In the past, this place was a 'T' shaped court plaza, and it was a place where ordinary people could not get in until Cheongdae. By the end of the Qing Dynasty, it began to open, allowing limited access by civilians to events such as holidays. The most representative place of Tiananmen Square is Tianyuan Gate, which is the front gate of the Forbidden City, where the portraits are taken.
+		</div></details>
+
+	<details>
+		<summary id="zoo" onclick="getDetails_2()">Beijing Zoo</summary>
+		<div id="dt2"> Beijing Zoo is a zoo located in Beijing City, China City Hall. It covers an area of 89 hectares, with over 450 species of land animals and over 500 species of marine animals, all of which have 14,500 animals. More than 6 million tourists visit the zoo every year. It was first established in 1906, the end of Qing Dynasty.
+		</div></details>
+
+	<details>
+		<summary id="palace" onclick="getDetails_3()">Summer Palace</summary>
+		<div id="dt3">Summer Palace is an imperial garden in Haiphong, Beijing, China, and is a masterpiece of Chinese garden landscaping. It was first built in 1750, severely damaged during the Second Opium War in 1860, and restored on its original foundation in 1886. The natural landscape of hills and vast lakes has aesthetic value in harmony with artificial sculptures such as pavilions, temples, palaces, temples, and bridges.</div>
+	</details><br><br><br>
+	</div>
+
+	<div class="by"><br>PHOTO ALBUM<br><br>
+        </div>
+
+	<button id="album">Show Album</button>
+	
+	<div class="photo">
+		<img src="img/china-2.jpg">
+		<img src="img/china-5.jpg">
+		<img src="img/china-6.jpg">
+                <img src="img/china-7.jpg">
+		<img src="img/china-3.jpg">
+		<img src="img/china-1.jpg">
+		<img src="img/china-4.jpg">
+	</div>
+
+	<div class="by">
+        <br><a href="about.html" class="name">made by HYUNHYERIM</a><br><br>
+        </div>
+	
+	<script type="text/javascript" src="detail.js"></script>
+</body>
+</html> 

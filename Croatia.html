@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Welcom to Croatia</title>
+	<link rel="stylesheet" type="text/css" href="css/navigation.css">
+	<link rel="stylesheet" type="text/css" href="css/text.css">
+	<link rel="stylesheet" type="text/css" href="css/img.css">
+	<script type="text/javascript" src="http://code.jquery.com/jquery-2.2.3.min.js"></script>
+</head>
+<body>
+	<ul class="navigate">
+		<li class="navigate"><a href="index.html">HOME</a></li>
+		<li class="navigate"><a href="#Dubrovnik">Dubrovnik</a></li>
+		<li class="navigate"><a href="#Split">Split</a></li>
+		<li class="navigate"><a href="#Palace">Dioclesian Palace</a></li>
+		<li class="navigate"><a href="#Zadar">Zadar</a></li>
+	</ul>
+	
+	<div class="left-div">
+	<img src="img/croatia-1.JPG" class="main"></div>
+
+	<div id="Location" class="right-div"><h2>Location</h2>
+	<p >Croatia is a country in southeastern Europe, situated at the crossroads of the Pannonian plains of the Balkans. The Croatian people refer to Croatia as Khwabzka. The capital city is Zagreb. It borders Serbia and Montenegro to the east, Bosnia and Herzegovina, the Adriatic Sea to the west, and Slovenia and Hungary to the north. </p>
+	<img src="img/map_croatia.png" class="main">
+	<br><br><br><br></div>
+	
+	<div class="list">
+	<details>
+		<summary id="Dubrovnik" onclick="getDetails_1()">Dubrovnik</summary>
+		<p id="dt">The guidebook says that you need to tour the wall in the afternoon and it will be good for you. Also, some people do not have one shade tour, so it was recommended to go to the moon unconditionally, There were some people who recommended me to go late in the afternoon because the sunshine surrounding the sunset was so good.</p><br></details>
+	
+	<details>
+		<summary id="Split" onclick="getDetails_2()">Split</summary>
+		<p id="dt2">Split is widely known as the city that the Emperor loved.
+There are many old ruins including Diocletian Palace which is registered as a UNESCO World Heritage Site. The climate is mild and the scenery of the Dinar Alps and the Adriatic Sea blend in.</p></details>
+
+	<details>
+		<summary id="Palace" onclick="getDetails_3()">Dioclesian Palace</summary>
+		<p id="dt3">Dioclesian Palace is a palace built by Emperor Diocletian, who was from this area and was an embalming figure, starting from a barracks soldier, climbing up to the military commander and climbing to the Emperor's seat by the army. For the next twenty-four years he ruled over Rome and handed over his throne to spend the rest of his life here, but he did not see the completion of the palace in 313 when the Dioclesian palace was completed. This place, unfortunately, suffered a lot of damage from the attack of Serbia until the independence of Yugoslavia in January 1992. And as you have noticed, the name of this palace was named after the Emperor.</p></details>
+		
+	<details>
+		<summary id="Zadar" onclick="getDetails_4()">Zadar</summary>
+		<p id="dt4">Walking south of the seas around Zadar old town, you can see the crowing and crowd of people gathering somewhere. It is the only place in the world where there is a sea organ. As the name suggests, the sea is an organ, but the waves are pounding and making a sound when the pipes are installed on the stairs of the beach.</p></details>
+	</div>        
+
+	<div class="by"><br>PHOTO ALBUM<br><br>
+        </div>
+	
+	<button id="album">Show Album</button>
+		
+	<div class="photo">
+		<img src="img/croatia-9.jpg">
+		<img src="img/croatia-10.PNG">
+                <img src="img/croatia-11.PNG">
+		<img src="img/croatia-2.PNG">
+                <img src="img/croatia-3.PNG">
+                <img src="img/croatia-4.PNG">
+	</div>
+	<div class="by">
+        <br><a href="about.html" class="name">made by HYUNHYERIM</a><br><br>
+        </div>
+	
+	<script type="text/javascript" src="detail.js"></script>
+</body>
+</html>

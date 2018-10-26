@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Welcome to France</title>
+	<link rel="stylesheet" type="text/css" href="css/navigation.css">
+        <link rel="stylesheet" type="text/css" href="css/text.css">
+        <link rel="stylesheet" type="text/css" href="css/img.css">
+	<script type="text/javascript" src="http://code.jquery.com/jquery-2.2.3.min.js"></script>
+</head>
+<body>
+	
+	<ul class="navigate">
+                <li class="navigate"><a href="index.html">HOME</a></li>
+                <li class="navigate"><a href="#Eiffel">Eiffel Tower</a></li>
+                <li class="navigate"><a href="#Louvre">Louvre</a></li>
+                <li class="navigate"><a href="#Montmartre">Montmartre</a></li>
+        </ul>
+
+        <div class="left-div">
+        <img src="img/france-10.jpg" class="main"></div>
+
+        <div id="Location" class="right-div"><h2>Location</h2>
+	<p> It lies between the western part of the European continent, the Mediterranean Sea and the Atlantic Ocean, and is the third largest in Europe. In 987, the Frankish Kingdom was destroyed and the first nation was formed with the creation of the cafe dynasty. It repeats the monarchy, the enactment, and the republic, and it is today since the establishment of the republican government in 1871.
+	</p>
+	<img src="img/map_france.png" class="main"></div>
+	
+	<div class="list">
+		<details>
+		<summary id="Eiffel" onclick="getDetails_1()">Eiffel Tower</summary>
+		<div id="dt"> The Eiffel Tower is a tower built in Paris in 1889. This tower, the main building of France, is the tallest structure in Paris with a lattice structure and is the world's largest paid viewing place for millions of visitors every year. It was named after the French engineer and architect Gustave Eiffel who designed it and it was built as the gateway to the World Expo in honor of the 100th anniversary of the French Revolution in 1889.
+		</div></details>
+	
+		<details>
+		<summary id="Louvre" onclick="getDetails_2()">Louvre</summary>
+		<div id="dt2">The Louvre is a national museum in Rivoli, the heart of Paris, France. It is one of the world's leading museums with the Metropolitan Museum of Art and the British Museum in terms of number and quality of collections. The present building is a reconstruction of the Louvre and is designated as a World Heritage Site, including the Seine River in Paris. The crystal pyramid formations in front of the Louvre Museum were built in modern times, and although they were once considered to be unfit, they now become the representative of the Louvre. In French it is also called Mujer du Louvre, Grand Louvre, or simply Louvre.
+		</div></details>
+		
+		<details>		
+		<summary id="Montmartre" onclick="getDetails_3()">Montmartre</summary>
+		<div id="dt3">Montmartre is an area in northern Paris, France, where it retains its cultural and artistic identity so that it can feel the religious atmosphere and trends of art history in the times. Today, it is also a residential area and a historical and cultural center, making it a must-visit destination for tourists wishing to walk through the typical streets of old Paris. As a place of creation and art, here tourists can always see unknown artists painted in the stairwell, and also find a cinematography scene. On the other hand, this artistic area turns into a night of entertainment.
+		</div></details></div><br><br><br>
+
+	<div class="by"><br>PHOTO ALBUM<br><br>
+        </div>
+
+	<button id="album">Show Album</button>
+		
+	<div class="photo">
+		<img src="img/france-8.jpg">
+                <img src="img/france-9.jpeg">
+		<img src="img/france-11.jpg">
+		<img src="img/france-12.jpg">	
+		<img src="img/france-6.jpg">
+                <img src="img/france-7.jpg">
+		<img src="img/france-1.jpg">
+                <img src="img/france-2.jpg">
+	</div>
+	<div class="by">
+        <br><a href="about.html" class="name">made by HYUNHYERIM</a><br><br>
+        </div>
+
+	<script type="text/javascript" src="detail.js"></script>
+</body>
+</html>
